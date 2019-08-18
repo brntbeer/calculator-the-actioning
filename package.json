@@ -35,7 +35,14 @@
     "nyc": "^13.3.0",
     "supertest": "^3.4.2"
   },
-    "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/octodemo/calculator/issues"
+  },
+  "homepage": "https://github.com/octodemo/calculator#readme",
+  "directories": {
+    "test": "test"
   }
 }
