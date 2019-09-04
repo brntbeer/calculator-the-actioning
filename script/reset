@@ -3,9 +3,18 @@
 set -e
 
 # Force push HEAD to baseline
-echo "Reverting master to baseline tag"
+echo "Reverting master to baseline tag. This will reset your local and force push to your origin. Are you sure? [y/n]"
 
-git fetch origin --tags --force
-git checkout master
-git reset --hard baseline
-git push origin baseline:master -f
+read response
+
+if [ $response = 'y' ] || [$response = 'yes' ]; then
+  git fetch origin --tags --force
+  git checkout master
+  git reset --hard baseline
+  git push -f origin master
+
+else
+
+  echo "Okay! Run again when ready".
+
+fi
