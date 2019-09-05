@@ -34,6 +34,10 @@ To get started, fork this repository to the location of your heart's desire to r
 
 - Merge your pull request!
 
+### Showing CI failures
+
+- If you would like to show CI job failures, follow the steps [in this video](https://www.youtube.com/watch?v=vlBuNM6Wzic&feature=youtu.be&t=624) to make a change to the [`arithmeticController.js`](https://github.com/octodemo/calculator/blob/demo-instructions/api/controllers/arithmeticController.js) that will cause the CI test jobs to fail.
+
 ## :unlock: Security vulnerabilities
 
 - Once Actions has been configured, navigate over to the **Settings** tab to enable **Data services**, by selecting the checkboxes for:
