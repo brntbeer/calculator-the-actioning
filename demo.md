@@ -11,7 +11,7 @@ To get started, fork this repository to the location of your heart's desire to r
 - Select the **Node.js** workflow template.
 
   - Bring attention to the structure of the `.yml` file that's generated and talk through its simplicity.
-  
+
   - Mention the documentation on the right side of the page as well if desired.
 
 - Open a pull request.
@@ -21,11 +21,11 @@ To get started, fork this repository to the location of your heart's desire to r
 - Immediately toggle to the **Actions** tab to highlight the key Actions features and values as it's running:
 
   - Live logs
-  
+
   - Matrix builds
-  
+
   - Linking to log file lines
-  
+
   - Timestamps (the `...` button in the upper right hand corner)
 
 - Toggle back to your pull request to show the Actions checks running/completing and passing/failing.
@@ -43,14 +43,14 @@ To get started, fork this repository to the location of your heart's desire to r
 - Once Actions has been configured, navigate over to the **Settings** tab to enable **Data services**, by selecting the checkboxes for:
 
   - Allow GitHub to perform read-only analysis of this repository
-  
-    - Dependency graph 
-    
+
+    - Dependency graph
+
     - Security alerts
-    
+
 - Navigate to the **Security** tab; you should see some security alerts.
 
-- Select the dropdown for **Automated Security fixes** and enable it. 
+- Select the dropdown for **Automated Security fixes** and enable it.
 
 - After a minute or two, [Dependabot](https://help.github.com/en/articles/configuring-automated-security-fixes) will open a pull request or show that a pull request is being generated.
 
@@ -69,7 +69,7 @@ When the demo is complete, you ultimately will want to reset your demo back to i
 - When ready, in the terminal run `script/reset`.
 
   - This will prompt for a `[y/n]` response to continue.
-  
+
 **NOTE**: As mentioned in the prompt, it will reset your `origin`, which _should_ be your fork.
 
-- Once you force push, you may need to revisit the **Security** tab to ensure GitHub is creating the build for you.
+- Once you force push, you should revisit the **Security** tab to ensure GitHub is not fixing the vulnerability. It should tell you that GitHub is unable to tell you vulnerability data because you disabled **Data Services**.
