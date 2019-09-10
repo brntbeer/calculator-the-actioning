@@ -58,7 +58,7 @@ To get started, fork this repository to the location of your heart's desire to r
 
 - Merge away!
 
-**NOTE:** If Dependabot ever has an issue generating a security fix because of another dependency, merge one pull pequest and re-visit that vulnerability and click the green **Create automated security fix** button to give it another try.
+**NOTE:** If Dependabot ever has an issue generating a security fix because of another dependency, merge one pull request and re-visit that vulnerability and click the green **Create automated security fix** button to give it another try.
 
 ## :rewind: Resetting the demo
 
