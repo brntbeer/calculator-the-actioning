@@ -19,7 +19,7 @@ jobs:
       run: git clone https://github.com/octodemo/calculator
 
     - name: Use Node.js
-      uses: ./.github/setup-node@
+      uses: ./.github/setup-node
       with:
         node-version: '12'
     - run: npm ci
