@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: Clone the thing
-      run: git clone https://github.com/octodemo/calculator
+      run: git clone https://github.com/brntbeer/calculator-the-actioning
 
     - name: Use Node.js
       uses: ./.github/setup-node
